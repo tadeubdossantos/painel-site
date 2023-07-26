@@ -1,0 +1,19 @@
+/*geral*/
+body { font-family: "Lato", sans-serif; background-color: #eeeeee; }
+.retorno { display:none; background-color: #d35351; color: #fff; }
+.justify { text-align: justify; }
+.text-purple { color: var(--primary); }
+h3 { color:#086b76; }
+
+/*view de registro*/
+.registro { display:none; }
+.registro span, .registros span { font-size:40px; padding-top:15px; color:#086b76; }
+.registro span:hover, .registros span:hover { cursor:pointer; color:#0d6efd; }
+
+/*views de registros*/
+.registros .btn-acoes { color:#2c9bcc; font-size: 20px; padding:0; }
+.registros .btn-acoes:hover { color:#0d6efd; }
+#frm-pesquisa { display:flex; justify-content: space-between; }
+#frm-pesquisa input:nth-child(1) { width: 78%; }
+#frm-pesquisa input:nth-child(2) { width: 18%; }
+#frm-pesquisa-filtros { display:flex; justify-content: space-between; }
